@@ -20,7 +20,7 @@ to trace events between WordPress, your own plugins or child themes, and
 Apache.  Note that this feature is intended for debug purposes only.
 
 .. note::
-   
+
    Inesonic does not use this feature on our production site unless needed
    to diagnose an existing issue.
 
@@ -69,7 +69,7 @@ The example shows how you can add a log entry tied to a specific user ID.
    function user_role_changed($user_id, $role, $old_roles) {
        do_action(
            'inesonic-logger-2',
-	   'User role changed from ' . end($old_roles) . ' to ' . $role,
-	   $user_id
+           'User role changed from ' . end($old_roles) . ' to ' . $role,
+           $user_id
        );
    });
