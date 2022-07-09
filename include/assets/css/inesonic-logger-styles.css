@@ -1,0 +1,94 @@
+ /**********************************************************************************************************************
+ * Copyright 2021, Inesonic, LLC
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
+ * License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+ * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with this program.  If not, see
+ * <https://www.gnu.org/licenses/>.
+ ***********************************************************************************************************************
+ */
+
+.inesonic-logger-configuration-area-row inesonic-row-hidden {}
+.inesonic-logger-input {
+    width: 100%
+}
+.inesonic-logger-button-anchor {}
+
+
+.inesonic-logger-area {}
+
+.inesonic-logger-page-title {}
+.inesonic-logger-header {}
+.inesonic-logger-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.inesonic-logger-checkbox-label {}
+.inesonic-logger-checkbox {}
+.inesonic-logger-table-area {}
+.inesonic-logger-table {
+    border-collapse: collapse;
+    border: 1px solid #808080;
+}
+.inesonic-logger-table-header {}
+.inesonic-logger-table-header-row {
+}
+.inesonic-logger-table-header-data-datetime {}
+.inesonic-logger-table-header-data-ipaddress {}
+.inesonic-logger-table-header-data-user-id {}
+.inesonic-logger-table-header-data-content {}
+.inesonic-logger-table-row {}
+
+.inesonic-logger-table-data-datetime {
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.inesonic-logger-table-data-ipaddress {
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.inesonic-logger-table-data-user-id {
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.inesonic-logger-table-data-content {
+    white-space: pre;
+    font-family: monospace;
+    vertical-align: top;
+}
+
+.inesonic-logger-table-header-data-datetime, .inesonic-logger-table-header-data-ipaddress, .inesonic-logger-table-header-data-user-id, .inesonic-logger-table-header-data-content, .inesonic-logger-table-data-datetime, .inesonic-logger-table-data-ipaddress, .inesonic-logger-table-data-user-id, .inesonic-logger-table-data-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: left;
+}
+
+.inesonic-logger-table-header-data-datetime, .inesonic-logger-table-header-data-ipaddress, .inesonic-logger-table-header-data-user-id, .inesonic-logger-table-header-data-content {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.inesonic-logger-apache-log-color {
+    color: #0000FF;
+}
+
+.inesonic-logger-apache-error-color {
+    color: #800000;
+}
+
+.inesonic-logger-internal-color {}
