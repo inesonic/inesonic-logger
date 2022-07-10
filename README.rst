@@ -7,6 +7,12 @@ managed log from the WordPress Admin panel.
 To use, simply copy this entire directory into your WordPress plugins directory
 and then activate the plugin from the WordPress admin panel.
 
+You may also be interested in the
+`Inesonic History Plugin <https://github.com/tuxidriver/inesonic-history>`
+which provides similar capabilities but geared towards tracking customer
+activity.  Both plugins were developed for the
+`Inesonic company website <https://inesonic.com>`.
+
 
 Configuring The Log Viewer
 ==========================
